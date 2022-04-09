@@ -28,7 +28,7 @@ line_bot_api = LineBotApi('zVkUr0O4yEQo3FyR7rCjOZkH/wHWG8e4tnRW6l3iU6kJ/fJxXQAve
 handler = WebhookHandler('ac5b69f52f6a568c4cb6b8c2db7a834b')
 
 line_bot_api.push_message('U2b030a5933594945dc1ca06a78690cd6', TextSendMessage(text='你可以開始了'))
-
+"""
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
 def callback():
@@ -46,7 +46,7 @@ def callback():
         abort(400)
 
     return 'OK'
-
+"""
 #訊息傳遞區塊
 ##### 基本上程式編輯都在這個function #####
 @handler.add(MessageEvent, message=TextMessage)
