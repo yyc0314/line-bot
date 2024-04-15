@@ -3,12 +3,6 @@
 """
 Created on Wed Jun  2 21:16:35 2021
 
-@author: Ivan
-版權屬於「行銷搬進大程式」所有，若有疑問，可聯絡ivanyang0606@gmail.com
-
-Line Bot聊天機器人
-第一章 Line Bot申請與串接
-Line Bot機器人串接與測試
 """
 #載入LineBot所需要的套件
 from flask import Flask, request, abort
